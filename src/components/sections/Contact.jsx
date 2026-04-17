@@ -92,8 +92,8 @@ export default function Contact() {
           {/* Infos contact */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
             {[
-              { label: 'Email', value: 'contact@sumud.sn' },
-              { label: 'Téléphone', value: '+221 77 000 00 00' },
+              { label: 'Email', value: 'sumud2097@proton.me' },
+              { label: 'Téléphone', value: '+221 76 396 50 75' },
               { label: 'Adresse', value: 'Dakar, Sénégal' },
             ].map(info => (
               <div key={info.label}>
@@ -231,6 +231,7 @@ export default function Contact() {
                   <option value="ecommerce" style={{ backgroundColor: '#111' }}>E-commerce</option>
                   <option value="web-app" style={{ backgroundColor: '#111' }}>Application web</option>
                   <option value="marketing" style={{ backgroundColor: '#111' }}>Marketing digital</option>
+                  <option value="marketing" style={{ backgroundColor: '#111' }}>Automatisation IA</option>
                   <option value="autre" style={{ backgroundColor: '#111' }}>Autre</option>
                 </select>
               </div>

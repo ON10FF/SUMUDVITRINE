@@ -9,21 +9,33 @@ const services = [
   },
   {
     number: '02',
+    title: 'Développement d\'Applications Mobile',
+    description: 'Applications natives ou cross‑platform pour Android et iOS. De l\'idée à la publication sur le Play Store et l\'App Store.',
+    tags: ['React Native', 'Flutter', 'Firebase', 'API REST'],
+  },
+  {
+    number: '03',
     title: 'UI / UX Design',
     description: 'Des interfaces pensées pour l\'utilisateur. Design system, prototypage, expérience fluide sur tous les écrans.',
     tags: ['Figma', 'Design System', 'Mobile First'],
   },
   {
-    number: '03',
+    number: '04',
     title: 'Marketing Digital',
     description: 'Stratégie de contenu, SEO, campagnes publicitaires. On propulse votre visibilité en ligne.',
     tags: ['SEO', 'Google Ads', 'Social Media'],
   },
   {
-    number: '04',
+    number: '05',
     title: 'Maintenance & Support',
     description: 'Suivi technique, mises à jour, optimisation des performances. On reste à vos côtés après le lancement.',
     tags: ['Monitoring', 'Optimisation', 'Support'],
+  },
+  {
+    number: '06',
+    title: 'Automatisation & Agents IA',
+    description: 'Workflows automatisés et agents IA conversationnels pour gérer vos leads, vos clients et vos opérations 24h/24.',
+    tags: ['WhatsApp Automation', 'Chatbot IA', 'Zapier / Make', 'Funnel Automatique'],
   },
 ]
 
